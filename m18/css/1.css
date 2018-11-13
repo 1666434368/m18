@@ -1,0 +1,930 @@
+*{
+	margin:0;padding:0;list-style:none;text-decoration: none;
+	font-family:Arial,"宋体",simsun,sans-serif;color:#848484;
+	font-size:12px;
+}
+body a:hover{
+	text-decoration:underline;
+}
+img{
+	border:0 none;
+	vertical-align:top;
+}
+/*导航条开始*/
+.head{
+	width:100%;height:22px;border-bottom:1px solid #E9E9E9;
+	border-top:1px solid #E9E9E9;
+	background-color:#F5F5F5;
+}
+.cen{
+	width:1004px;height:22px;margin:0 auto;
+}
+.cen .zuo{
+	width:114px;height:22px;float:left;
+}
+.cen .zuo li{
+	float:left;margin:0 10px;
+}
+.cen .zuo li a{
+	height:22px;line-height:22px;
+}
+.cen .you{
+	width:565px;height:22px;float:right;
+}
+.cen .you li{
+	float:left;
+}
+.cen .you li a{
+	display:block;
+	width:64px;height:22px;line-height:22px;
+}
+.cen .you .gouwu a{
+	display:block;
+	width:102px;height:100%;
+	background: url(../images/bul_layout.png) no-repeat 68px 0;
+}
+.cen .you .gouwuche{
+	background-color: #fff;
+	border-bottom:1px solid #fff;
+	border-left:1px solid #E9E9E9;
+	border-right:1px solid #E9E9E9;
+}
+.cen .you .gouwuche a{
+	display:block;
+	width:114px;height:100%;text-align:center;float:left;
+	background: url(../images/bul_layout.png) no-repeat -4px -30px;
+}
+.cen .you .gouwuche span{
+	display:block;width:18px;height:22px;float:left;margin-left: -20px;
+	background: url(../images/bul_layout.png) no-repeat -10px 0;
+}
+.cen .you .shouji a{
+	display:block;
+	width:78px;height:100%;text-align:center;
+	background: url(../images/bul_layout.png) no-repeat 2px -410px;
+}
+.cen .you .jiezhang a{
+	display:block;
+	width:50px;height:100%;text-align:center;
+	background-color:#D32626;color:#fff;
+}
+.cen .you .language a{
+	display:block;border-right:1px solid #E9E9E9;
+	width:90px;height:100%;text-align:center;
+	background: url(../images/bul_layout.png) no-repeat 67px 0;
+}
+/* 导航条结束 */
+/* 搜索框开始 */
+.sousuo{
+	width:1004px;height:65px;margin:0 auto;margin-top:25px;
+}
+.sousuo .zuo a{
+	display:block;width:158px;height:50px;
+	background:url(../images/1.png) no-repeat;
+	float:left;
+}
+.sousuo .text {
+	float:right;width:565px;height:32px;
+	border:4px solid #E92323;
+	position:relative;
+	z-index:100;
+}
+.sousuo .text .wenben{
+	width:469px;height:30px;
+	border:0 none;
+	font-size:17px;  padding:0 8px; 
+	float: left;
+	line-height:30px;
+}
+.sousuo .text .anniu{
+	width:78px;height:33px;
+	border:1px solid #E92323;
+	background-color:#E92323;
+	color:#fff;font-size:14px;
+	float: right;
+	text-align: center;
+	line-height: 33px;
+	cursor:pointer;
+}
+.sousuo .guanjianzi{
+	width:562px;height:14px;float:right;margin:6px 6px 0 6px;
+	font-size:14px;
+}
+.sousuo .guanjianzi span{
+	color:#000;margin-right:10px;
+}
+.sousuo .guanjianzi a{
+	margin:0 10px;
+}
+
+/* 搜索下面的提示框*/
+.sousuo .tishi{
+	width:240px;height:277px;border:1px solid red;
+	position: absolute;top:35px;left:-4px;
+	display:none;z-index:100;background-color:#fff;
+}
+.sousuo .tishi .ts{
+	width:240px;height:250px;background-color:#fff;
+} 
+.sousuo .tishi .lishi{
+	display:block;
+} 
+.sousuo .tishi .jilu,.remen{
+	display:block;
+	width:230px;height:25px;background-color:#ECEFF2;
+	line-height:25px;padding-left:10px;
+}
+.sousuo .tishi a{
+	display:block;
+	width:230px;height:20px;
+	line-height:20px;padding-left:10px;
+	color:#000;font-size:12px;
+}
+.sousuo .tishi a:hover{
+	color:#CC0000;font-size:13px;
+	text-decoration: underline;
+}
+.sousuo .tishi .sc a:hover{
+	text-decoration:none;
+}
+.sousuo .tishi .shanchu{
+	display:block;float:left;
+	font-size:13px;margin-top:1px;
+	width:170px;height:27px;border-top:1px solid #FFCACD;
+	line-height:27px;padding-left:10px;color:#AD0029;
+}
+.sousuo .tishi .guanbi{
+	display:block;float:right;
+	border-top:1px solid #FFCACD;
+	font-size:13px;margin-top:1px;
+	width:50px;height:27px;line-height:27px;color:#AD0029;
+	background:url(../images/bul_layout.png) no-repeat 28px -227px;
+}
+.sousuo .neirong{
+	width:330px;height:277px;float:right;border:1px solid red;
+	position:absolute;right:-4px;top:35px;
+	display:none;background-color:#fff;
+	z-index:1;
+}
+.sousuo .neirong .one{
+	display:block;
+}
+.sousuo .neirong ul{
+	display:none;
+}
+.sousuo .neirong ul li{
+	width:330px;height:83px;
+	border-bottom:1px solid #FFCACD;
+}
+.sousuo .neirong ul li img{
+	width:67px;height:67px;padding:10px 0 0 10px;
+	float:left;padding-right:10px;
+}
+.sousuo .neirong ul li .dianming{
+	float:left;
+	width:80px;height:30px;line-height:30px;
+}
+.sousuo .neirong ul li .xinxi{
+	float:left;
+	width:170px;height:45px;
+}
+.sousuo .neirong ul li img{
+	border:0 none;
+}
+.sousuo .neirong ul li .jiage{
+	float:left;
+	width:62px;height:30px;line-height:30px;
+	color:#D32626;font-size:15px;padding-left:3px;
+}
+.sousuo .chaxun{
+	display:block;
+	width:320px;height:27px;line-height:27px;color:#D32626;
+	text-align:right;padding-right:10px;
+}
+/* 搜索框结束 */
+
+/* 悬浮框开始 */
+.suspension{
+	width:76px;height:299px;
+	position:fixed;
+	right:75px;
+	top:124px;
+	z-index: 100;
+}
+.suspension .area a{
+	display:block;
+	padding-top:53px;
+	width:76px;height:17px;
+	background:url(../images/bg_qlounge.png) no-repeat;
+	background-color:#527FEF;
+	border-radius:5px;
+	color:#fff;
+	text-align:center;line-height:17px;
+	font-size:13px;
+	text-decoration:none;
+}
+.suspension .content{
+	margin-top:8px;
+	height:220px;width:76px;
+	border:1px solid #D1D0D0;
+	border-radius:5px;
+}
+.suspension .content .share{
+	width:76px;padding:8px 0;
+	background-color:#FAFAFA;
+	text-align:center;
+}
+.suspension .content .share a{
+	text-decoration:none;
+	display:inline-block;
+	padding-left:18px;
+	background:url(../images/layout2.png) no-repeat -190px -170px;
+}
+.suspension .content .share span{
+	background-color:#fff;
+}
+.suspension .content .information li{
+	height:40px;border-top:1px solid #D1D0D0;
+	text-align:center;background-color:#F9F9F9;
+}
+.suspension .content .information li a{
+	display:block;height:40px;
+	text-decoration:none;line-height:60px;
+}
+.suspension .content .information li a:hover{
+	color:#E83B3B;
+}
+.suspension .content .information li .showroom{
+	background:url(../images/btn_quickinfo.png) no-repeat 0 -240px;
+}
+.suspension .content .information li .showroom:hover{
+	background:url(../images/btn_quickinfo.png) no-repeat 0 -280px;
+}
+.suspension .content .information li .cart{
+	background:url(../images/btn_quickinfo.png) no-repeat 0 0;
+}
+.suspension .content .information li .cart:hover{
+	background:url(../images/btn_quickinfo.png) no-repeat 0 -40px;
+}
+.suspension .content .information li .qbox{
+	background:url(../images/btn_quickinfo.png) no-repeat -70px 0;
+}
+.suspension .content .information li .qbox:hover{
+	background:url(../images/btn_quickinfo.png) no-repeat -70px -40px;
+}
+.suspension .content .information li .lately{
+	background:url(../images/btn_quickinfo.png) no-repeat -70px -122px;
+}
+.suspension .content .information li .lately:hover{
+	background:url(../images/btn_quickinfo.png) no-repeat -70px -162px;
+}
+.suspension .content .size{
+	border-top:1px dashed #D1D0D0;
+	text-align:center;
+	line-height:24px;background-color:#F9F9F9;
+}
+.suspension .content .size a{
+	text-decoration:none;
+}
+.suspension .top{
+	width:76px;height:27px;
+	margin-top:10px;
+	border:1px solid #CCCCCC;
+	border-radius:5px;background-color:#F2F2F2;
+	background:url(../images/layout2.png) no-repeat 40px -170px;
+	cursor:pointer;
+}
+.suspension .top span{
+	display:block;
+	width:37px;height:27px;line-height:27px;
+	text-align:center;
+	border-right:1px solid #CCCCCC;
+	color:#666;
+}
+/* 悬浮框结束 */
+
+/* 移动框开始 */
+
+
+.center .yidong{
+	width:1004px;margin:0 auto;
+}
+.center .yidong .move{
+	width:1005px;height:36px;
+	margin-top:10px;
+	position:relative;
+	// z-index: 0;
+}
+.center .yidong .move li {
+	float:left;width: 16.367861%;height:34px;line-height:34px;
+	text-align:center;font-size:14px;color:#fff;
+	background-color:#CC0000;
+	border:2px solid #CC0000;
+	border-right:1px solid #B40909;
+	border-bottom:0;
+	// z-index:0;
+}
+.center .yidong .move li a{
+	display: inline-block;
+	width: 100%;height:34px;line-height:34px;
+	text-align:center;font-size:14px;color:#fff;
+	background-color:#CC0000;
+	// z-index:0;
+}
+.center .yidong .move li a:hover{
+	text-decoration:none;
+}
+.center .yidong .neirong {
+	width:613px;
+	border:2px solid #CC0000;
+	border-top:0;
+	display:none;
+	position:absolute;background-color:#fff;
+	z-index:1;
+}
+.center .yidong .neirong .yangshi dt{
+	padding:10px 0 10px 10px;
+	clear:both;
+}
+.center .yidong .neirong .yangshi dt a{
+	color:#C00000;font-size:14px;
+}
+.center .yidong .neirong a:hover{
+	color:#B71717;
+}
+.center .yidong .neirong .yangshi dd{
+	float:left;padding:3px 0 3px 0;
+}
+.center .yidong .neirong .yangshi .one a{
+	padding:5px 5px 5px 10px;border:0 none;
+}
+.center .yidong .neirong .yangshi dd a{
+	border-left:1px solid #D8D7D8;padding:0 7px;
+}
+.center .yidong .neirong .pinpai{
+	margin-left:10px;
+}
+.center .yidong .neirong .pinpai dt{
+	padding:10px 0;
+	clear:both;
+	width:613px;height:15px;
+}
+.center .yidong .neirong .pinpai dt span{
+	font-size:14px;color:#000;margin-right:10px;
+}
+.center .yidong .neirong .pinpai dd{
+	display:inline-block;
+	margin:5px 0;border:1px solid #ccc;
+}
+.center .yidong .neirong .pinpai dd img{
+	width:110px;height:52px;border:0 none;
+}
+.center .yidong .neirong .pinpai .one{
+	border:1px solid red;
+}
+/* 移动框结束 */
+/* 下拉图片开始 */
+.center .yidong .maxbox{
+	position:absolute;width:1004px;
+	top:165px;background-color:#fff;
+	//top:295px;
+	//height:300px;
+}
+.center .yidong .pulldown img{
+	margin:10px 0;
+}
+/* 下拉图片结束 */
+/* 图片的轮播开始 */
+.center .yidong .maxbox .smallbox{
+	width:730px;height:300px;
+	position:relative;
+	z-index:0;overflow:hidden;
+	float:left;
+}
+.center .yidong .maxbox .smallbox .bigbox{
+	width:10000px;height:300px;
+}
+
+.center .yidong .maxbox .smallbox .xiabiao{
+	position:absolute;
+	top:268px;left:450px; 
+}
+.center .yidong .maxbox .smallbox .xiabiao li{
+	width:20px;height:20px;line-height:20px;border:1px solid red;
+	float:left;text-align:center;
+	background-color:#fff;color:#000;
+	margin:0 2px;border-radius:5px;
+}
+.center .yidong .maxbox .smallbox .xiabiao .one{
+	background-color:#CC0000;
+}
+.center .yidong .maxbox .smallbox .xuanze{
+	position:absolute;width:740px;height:60px;
+	top:240px;display:none;
+}
+.center .yidong .maxbox .smallbox .beijing{
+	width:740px;height:60px;
+	background-color:#666;
+	opacity:.7;
+	filter:alpha(opacity=70);z-index:0;
+}
+.center .yidong .maxbox .smallbox .xuanze ul{
+	height:47px;
+	position:absolute;top:7px;z-index:1;
+}
+.center .yidong .maxbox .smallbox .xuanze li{
+	float:left;border:1px solid #fff;
+	width:45px;height:45px;margin:0 2px;
+}
+.center .yidong .maxbox .smallbox img{
+	border:0 none;
+}
+.center .yidong .maxbox .smallbox .xuanze .one{
+	border:1px solid #CC0000;
+}
+/* 图片轮播结束*/
+/* 迷你店铺特惠区开始 */
+.center .yidong .maxbox .zhanshi{
+	margin-left:10px;float:left;width:264px;
+	background-color:#fff;
+}
+.center .yidong .maxbox .zhanshi .title{
+	display:block;margin-bottom:8px;
+	width:260px;height:30px;border:2px solid #CC0000;
+	background-color:#E92323;
+	line-height:36px;text-align:center;
+	color:#fff;font-size:15px;
+	border-radius:3px;
+}
+.center .yidong .maxbox .zhanshi .minbox{
+	width:260px;
+	height:240px;
+	overflow:hidden;
+}
+.center .yidong .maxbox .zhanshi .minbox .first{
+	display:block;
+}
+.center .yidong .maxbox .zhanshi .minbox ul{
+	display:none;
+}
+.center .yidong .maxbox .zhanshi .minbox ul img{
+	border:0 none;
+	width:113px;float:left;margin-right:8px;
+}
+.center .yidong .maxbox .zhanshi .minbox ul .one{
+	display:block;width:135px;height:15px;float:left;
+	background-color:#FFF100;text-align:center;
+	color:#000;line-height:15px;
+}
+.center .yidong .maxbox .zhanshi .minbox ul .two{
+	display:block;width:50px;height:20px;
+	background-color:#FF3F47;text-align:center;
+	color:#fff;line-height:20px;float:left;
+	margin:5px 40px;border-radius:10px;
+	font-size:15px;
+}
+.center .yidong .maxbox .zhanshi .minbox ul .three{
+	display:block;width:50px;height:15px;
+	text-align:center;
+	color:#000;line-height:15px;float:left;
+	margin:3px 40px;font-size:15px;
+}
+.center .yidong .maxbox .zhanshi .minbox ul .four{
+	display:block;float:left;width:130px;height:55px;
+}
+.center .yidong .maxbox .zhanshi .subscript{
+	float:left;width:80px;height:14px;margin:3px 0;
+	margin-left:103px;
+}
+.center .yidong .maxbox .zhanshi .subscript a{
+	display:block;float:left;
+	width:8px;border:1px solid #fff;height:8px;
+	margin-left:6px;border-radius:8px;
+	background-color:#E1E1E1;
+}
+.center .yidong .maxbox .zhanshi .subscript .one{
+	background-color:#DF1818;
+}
+/* 迷你店铺特惠区结束 */
+/* 畅销精装开始 */
+.center .yidong .maxbox .bestseller{
+	float:left;
+	width:730px;height:216px;
+	border:1px solid #A9ABB0;
+	margin-top:10px;
+	background-color:#F6F6F6;
+}
+.center .yidong .maxbox .bestseller .title{
+	float:left;
+	display:block;margin:15px 0 0 20px;
+	width:110px;height:25px;line-height:25px;
+	text-align:center;font-size:15px;
+	color:#CF1616;
+	text-decoration:none;
+}
+.center .yidong .maxbox .bestseller .subscript{
+	width:485px;height:25px;
+	margin-left:240px;margin-top:15px;
+}
+.center .yidong .maxbox .bestseller .subscript ul li{
+	height:15px;
+	float:left;
+}
+.center .yidong .maxbox .bestseller .subscript ul li a{
+	display: inline-block;
+	height:15px;border-right:1px solid #ccc;
+	float:left;margin:7px 0;text-align:center;
+	color:#444;padding:0 7px;font-size:13px;
+	text-decoration:none;
+}
+.center .yidong .maxbox .bestseller .subscript ul li .first{
+	color:#cc0000;
+}
+.center .yidong .maxbox .bestseller .subscript ul li .last{
+	border:0 none;
+}
+
+.center .yidong .maxbox .bestseller .disbox{
+	width:655px;height:150px;
+	margin:0 auto;margin-top:20px;
+	position:relative;top:0;left:0;
+	overflow:hidden;
+}
+.center .yidong .maxbox .bestseller .disbox .jpbox{
+	width:10000px;height:150px;
+	position:absolute;top:0;left:0;
+}
+.center .yidong .maxbox .bestseller .disbox .jpbox{
+	display:none;
+}
+.center .yidong .maxbox .bestseller .disbox .one{
+	display:block;
+}
+.center .yidong .maxbox .bestseller .disbox .jpbox .smbox{
+	width:655px;height:150px;
+	float:left;
+}
+ .center .yidong .maxbox .bestseller .disbox .jpbox .smbox .number{
+	display:block;width:20px;height:20px;line-height:20px;
+	text-align:center;
+	background-color:red;color:#fff;
+	position:absolute;top:0;left:0;
+}
+.center .yidong .maxbox .bestseller .disbox .jpbox .smbox .img{
+	width:110px;height:150px;margin:0 10px;
+	float:left;position:relative;text-decoration:none;
+}
+.center .yidong .maxbox .bestseller .disbox .jpbox .smbox .info{
+	width:110px;height:40px;background-color:#fff;
+}
+ .center .yidong .maxbox .bestseller .disbox .jpbox .info .describe{
+	display:block;
+	width:110px;height:20px;
+	color:#000;overflow:hidden;white-space:nowrap;
+	text-overflow:ellipsis;
+}
+ .center .yidong .maxbox .bestseller .disbox .jpbox .hide{
+	border:1px solid red;
+	height:16px;position:absolute;top:30px;left:30px;
+	color:#000;background-color:#fff;
+	white-space:nowrap;z-index:2;
+	display:none;
+}
+.center .yidong .maxbox .bestseller .disbox .jpbox .price{
+	width:100px;height:20px;
+	margin-left:30px;font-size:15px;color:#cc0000;
+
+} 
+.center .yidong .maxbox .bestseller .left{
+	float:left;display:block;width:35px;height:30px;
+	margin-top:60px;font-size:40px;text-align:right;
+	cursor:pointer;
+}
+.center .yidong .maxbox .bestseller .right{
+	float:right;display:block;width:35px;height:30px;
+	margin-top:60px;font-size:40px;text-align:left;
+	cursor:pointer;
+}
+
+/* 畅销精装结束 */
+
+/* 签到有礼开始 */
+.center .yidong .maxbox .qiandao{
+	display:block;float:left;
+	width:255px;height:218px;
+	background:url(../images/18.jpg) no-repeat;
+	margin:10px 0 0 10px;
+}
+
+/* 签到有礼结束  */
+
+/* 限时折扣开始 */
+.center .yidong .maxbox .section_column{
+	width:1004px;height:280px;
+	float:left;margin-top:30px;
+}
+.center .yidong .maxbox .section_column .column{
+	width:330px;hieght:280px;background-color:#F8F8F8;
+	float:left;margin-right:4px;
+	position:relative;top:0;left:0;
+}
+.center .yidong .maxbox .section_column .time_sale .tit{
+	width:310px;height:30px;
+    padding: 5px 10px; vertical-align:middle;
+    background-color: #52b1ff;
+}
+.center .yidong .maxbox .section_column .time_sale .btn_more{
+	width:38px;hieght:23px;border:1px solid #428ECC;
+	border-color: #428ecc;color:#fff;
+    background: #4ea8f2;text-align:center;line-height:23px;
+    position:absolute;top:7px;right:8px;z-index:2;
+}
+.center .yidong .maxbox .section_column .time_sale .tit i{
+	display:inline-block;
+	width: 28px;height:30px;
+	background: url(../images/main2.png) 0 61px;
+}
+.center .yidong .maxbox .section_column .column .tit a{
+	display:inline-block;
+    font-size:25px; padding: 0 7px;margin-top:-20px;
+    vertical-align:middle;
+    color:#fff;text-decoration: none;
+}
+.center .yidong .maxbox .section_column .daily_deal .tit{
+	width:310px;height:30px;
+    padding: 5px 10px;
+    background-color: #ff5960;
+}
+.center .yidong .maxbox .section_column .daily_deal .btn_more{
+	width:38px;hieght:23px;border:1px solid #428ECC;
+	border-color: #cc474d;color:#fff;
+    background: #f2545b;text-align:center;line-height:23px;
+    position:absolute;top:7px;right:8px;z-index:2;
+}
+.center .yidong .maxbox .section_column .daily_deal .tit i{
+	display:inline-block;
+	width:30px;height:30px;
+	background: url(../images/main2.png) -30px 61px;
+}
+.center .yidong .maxbox .section_column .group_buy .tit{
+	width:310px;height:30px;
+    padding: 5px 10px;
+    background-color: #fe9b21;
+}
+.center .yidong .maxbox .section_column .group_buy .btn_more{
+	width:38px;hieght:23px;border:1px solid #428ECC;
+	border-color:#cb7c1a;color:#fff;
+    background: #f1931f;text-align:center;line-height:23px;
+    position:absolute;top:7px;right:8px;z-index:2;
+}
+.center .yidong .maxbox .section_column .group_buy .tit i{
+	display:inline-block;
+	width:30px;height:30px;
+	background: url(../images/main2.png) 36px 61px;
+}
+.center .yidong .maxbox .section_column .column .deal_list{
+	padding: 0 4.54545%;
+}
+.center .yidong .maxbox .section_column .column .deal_list .thmb{
+	display:none;
+}
+.center .yidong .maxbox .section_column .column .deal_list .info .dc{
+	display:none;
+}
+.center .yidong .maxbox .section_column .column .deal_list .sbj{
+	overflow: hidden;
+    display: inline-block;
+    height: 36px;color:#444;
+}
+.center .yidong .maxbox .section_column .column .deal_list li{
+	position: relative;height:39px;
+    padding-top: 13px;
+    padding-right: 28%;
+}
+.center .yidong .maxbox .section_column .column .deal_list .info{
+	position: absolute;
+    right:15px;
+    top: 15px;
+    text-align: right;
+}
+.center .yidong .maxbox .section_column .column .deal_list .info .prc{
+	font-size:14px;color:#444;
+}
+.center .yidong .maxbox .section_column .column .deal_list .major{
+	margin: 0;height: 95px;
+    padding: 15px 0 15px 110px;
+}
+.center .yidong .maxbox .section_column .column .deal_list .major .thmb{
+	position: absolute;display:block;
+    left: 0;
+    width: 100px;
+    height: 100px;
+}
+.center .yidong .maxbox .section_column .column .deal_list .major .sbj{
+	height: 44px;display:block;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.center .yidong .maxbox .section_column .column .deal_list .major .info{
+	position: absolute;
+    right: 0;
+    top: 60px;width:200px;
+}
+
+.center .yidong .maxbox .section_column .column .deal_list .major .info .prc{
+	display:block;text-align:right;margin-top:10px;
+	height:44px;
+	font-size:19px;padding-right:15px;
+}
+.center .yidong .maxbox .section_column .column .deal_list .prc del{
+	display:block;text-decoration:line-through;
+	font-size:14px;
+}
+.center .yidong .maxbox .section_column .column .deal_list .major .info .dc{
+	display:block;
+	font-size:16px;color:#52b1ff;padding-left:10px;
+	padding-bottom: 7px;
+	position:absolute;left:0;bottom:0;
+}
+
+
+/* 限时折扣结束 */
+
+/* 特色品牌开始 */
+.center .yidong .maxbox .characteristic {
+	float:left;position: relative;
+	width:1004px; height:182px;
+	margin-top:20px;margin-bottom:40px;
+}
+.center .yidong .maxbox .characteristic .title{
+	padding: 0 0 5px 1px;
+	font-size: 22px;color:#444;
+}
+.center .yidong .maxbox .characteristic .title em{
+	margin-left: 5px;font-size: 12px;color: #c00;
+}
+.center .yidong .maxbox .characteristic .cate{
+	position: absolute;right: -5px;top: 7px;
+    overflow: hidden; 
+}
+.center .yidong .maxbox .characteristic .cate li{
+	float: left;padding: 0 9px;line-height: 18px;
+	background: url(../images/main.png) 0 -110px no-repeat;
+}
+.center .yidong .maxbox .characteristic .cate .one{
+	background:0;
+}
+.center .yidong .maxbox .characteristic .spot .slt{
+	height:124px;
+	margin: 4px 0;padding: 3px 9px 13px 9px;
+	border: 1px solid #eeeeef;
+    background-color: #fff;
+}
+.center .yidong .maxbox .characteristic .spot .slt li{
+	float:left;width: 12.5%;
+    margin-top: 10px;
+}
+.center .yidong .maxbox .characteristic .spot .slt li img{
+	width:108px;height:50px;
+	border:1px solid #C3C5C7;
+}
+.center .yidong .maxbox .characteristic .spot .slt li a{
+	display:block;
+	width:110px;height:52px;
+	border:1px solid #fff;
+}
+
+
+/* 特色品牌结束 */
+/* 精选女装开始 */
+.center .yidong .maxbox .ladies{
+	float:left;position: relative;
+	width:1004px; height:383px;z-index:2;
+	background-color:#fff;
+}
+.center .yidong .maxbox .ladies .title{
+	display:block;
+	padding: 0 0 8px 1px;
+	font-size: 22px;color:#444;
+    border-bottom: 2px solid #cd0606;
+    font-weight:900;
+}
+.center .yidong .maxbox .ladies .title span{
+	margin-left: 5px;font-size: 12px;color: #c00;
+}
+.center .yidong .maxbox .ladies .title:hover{
+	text-decoration:none;
+}
+.center .yidong .maxbox .ladies .cate{
+	position: absolute;right: -5px;top: 7px;
+    overflow: hidden; 
+}
+.center .yidong .maxbox .ladies .cate li{
+	float: left;padding: 0 9px;line-height: 18px;
+	background: url(../images/main.png) 0 -110px no-repeat;
+}
+.center .yidong .maxbox .ladies .cate .one{
+	background:0;
+}
+.center .yidong .maxbox .ladies .img{
+	overflow: hidden;height: 100%;
+    margin: 5px 0;
+}
+
+.center .yidong .maxbox .ladies .img li{
+	display:inline;height:163px;
+	overflow:hidden;float:left;
+	margin-left:5px;
+    margin-bottom:5px;background-color:#fff;
+}
+.center .yidong .maxbox .ladies .img .one{
+	margin-left: 0;margin-right: 8px;
+	height:330px;
+}
+.center .yidong .maxbox .ladies .img .item{
+	position: relative;
+    display:block;width:auto;
+    background:#000;
+    text-decoration:none;
+}
+.center .yidong .maxbox .ladies .img .item img{
+	opacity:.9;
+    filter:alpha(opacity=90);
+}
+.center .yidong .maxbox .ladies .img .info{
+    position:absolute;left:0;bottom:-40px;
+    width:100%;height:40px;
+    line-height:40px;color:#c00000;
+    text-align:center;
+    background-color:#fff;
+    opacity:.8;
+    filter: alpha(opacity=80);
+}
+.center .yidong .maxbox .ladies .img .info span{
+   color:#c00000;font-size:16px;
+}
+.center .yidong .maxbox .ladies .img .one .info span{
+   font-size:12px;
+}
+.center .yidong .maxbox .ladies .img .two .info span{
+   font-size:12px;
+}
+.center .yidong .maxbox .ladies .img .info .dc{
+	margin:0 3px;font-size:12px;
+	color:#ff3f47;
+}
+.center .yidong .maxbox .ladies .img .info .dc span{
+	display:inline-block;width:0;height:0;
+	border:7px solid #ff3f47;
+    border-color: #ff3f47 transparent transparent transparent;
+    margin-top: 4px;vertical-align: middle;
+}
+
+/* 精选女装结束 */
+
+/* 底部开始 */
+.center .yidong .maxbox .bottom{
+	float:left;width:1004px;
+	margin-top:50px;
+	border-top:1px solid #333;
+	text-align:center;
+	position:relative;
+}
+.center .yidong .maxbox .bottom .bmtop{
+	width:530px;height:50px;
+	margin:10px 0 15px 15px;
+	text-align:left;
+}
+.center .yidong .maxbox .bottom .bmtop span{
+	color:#333;
+	font-weight:bold;
+}
+.center .yidong .maxbox .bottom .bmtop a{
+	color:#000;display:inline-block;
+	width:60px;height:20px;text-align:center;
+	line-height:20px;
+	background:url(../images/main.png) no-repeat 0 -40px;
+}
+.center .yidong .maxbox .bottom .bmtop .bmright{
+	position: absolute;
+	right:15px;top:10px;
+	height:20px;line-height:20px;
+}
+.center .yidong .maxbox .bottom .bmtop .bmright a{
+	display:line-block;vertical-align: top;
+	width:45px;height:16px;margin-top:1px;margin-left:2px;
+	background:url(../images/ebay.png) no-repeat;
+}
+
+.center .yidong .maxbox .bottom .img{
+	height:72px;
+}
+.center .yidong .maxbox .bottom .img a{
+	display:inline-block;
+	height:auto;
+	vertical-align:middle;
+	margin-left:5px;
+}
+/* 底部结束 */
+
